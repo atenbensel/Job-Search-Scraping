@@ -5,7 +5,11 @@ We're building a tool to automate the process of searching for job openings base
 ## Installation
 
 <li> Install Python 3: Download and install the latest version of Python 3 </li>
-<li> Install Dependencies: Install the required Python libraries using pip:</li>
+<li> Install Dependencies: Install the required Python libraries using pip:<br>
+```
+  pip install beautifulsoup4 requests apscheduler
+```
+</li>
 
 ## Technical Requirements:
 
