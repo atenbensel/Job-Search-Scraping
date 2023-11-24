@@ -17,6 +17,7 @@ Run the following command to start the tool: <br>
 
 ## File Structure
 
+```
 ├── frontend
 │   ├── frontend.html
 │   ├── frontend.css
@@ -27,6 +28,7 @@ Run the following command to start the tool: <br>
 ├── data_handler.py
 ├── scheduler.py
 └── job_data.csv
+```
 
 ## Technical Requirements:
 
