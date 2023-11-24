@@ -29,7 +29,3 @@ Run the following command to start the tool: <br>
 ├── scheduler.py
 └── job_data.csv
 ```
-
-## Technical Requirements:
-
-## Project Requirements:
