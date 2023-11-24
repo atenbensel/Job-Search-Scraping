@@ -1,6 +1,6 @@
 import csv
 
-def save_job_data_to_csv(job_data):
-  with open('job_data.csv', 'w', newline='') as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=['job_title', 'company_name', 'location', 'description', 'application_link'])
-    write.write
+def save_to_csv(data, filename, mode='w'):
+  with open(filename, mode, newline='', encoding='utf-8') as file:
+    fieldnames = ['Job Title', 'Company Name', 'Location', 'Job Description', 'Application Link'])
+    writer = csv.DictWriter, fieldnames=fieldnames
