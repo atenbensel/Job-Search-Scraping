@@ -6,7 +6,7 @@
 }
 
 .main {
-    margin-top: 200px;
+    margin-top: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,6 +19,7 @@
     font-size: 5rem;
     font-weight: 800;
     background: linear-gradient(to left, #EC731C, #F010A4, #1510F0);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 30px;
@@ -39,9 +40,9 @@
 
 .main .container input {
     width: 650px;
-    height: 60px;
+    height: 65px;
     outline: none;
-    border-radius: 8px;
+    border-radius: 16px;
     border: 2px solid transparent;
     background: 
      linear-gradient(white,white)
@@ -64,10 +65,10 @@
 .main .container button {
     font-family: 'Montserrat', sans-serif;
     width: 410px;
-    height: 60px;
+    height: 65px;
     background: transparent;
     border: 2px solid black;
-    border-radius: 8px;
+    border-radius: 16px;
     font-weight: 900;
     font-size: 1.5rem;
 }
