@@ -23,8 +23,18 @@ def scrape_google_jobs():
       job_description = job_posting.find('span', class_='f3kIre').text.strip()
       application_link = job_posting.find('a", class_='BVG0Nb')['href']
 
-  job_data.append({
-    'Job Title':'Software Engineer',
-  })
+      job_data.append({
+        'Job Title':job_title,
+        'Company Name': company_name,
+        'Location': location,
+        'Job Description': job_description,
+        'Application Link': application_link,
+      })
 
-  save_to_csv(job_data, 'job_data.csv', 'a')
+      save_to_csv(job_data, 'job_data.csv', 'a')
+
+    else:
+      print(f"Error: Unable to fetch Google Jobs apage. Status code: {response.status_code}")
+
+scrape_google_jobs
+                                            
