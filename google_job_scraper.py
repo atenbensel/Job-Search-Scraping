@@ -3,10 +3,25 @@ import requests
 import bs4 import BeautifulSoup
 from data_handler import save_to_csv
 
-def scrape_google_jobs:
-# google scraping jobs logic here
+def scrape_google_jobs():
+  base_url = "https://wwww.google.com/search?q="
+  job_title = "software engineer" # replace with user input
 
-  job_data = []
+  search_url = f"{base_url}{job_title}+jobs"
+
+  response = requests.get(search_url)
+
+  if response.status_code == 200:
+    soup = BeautifulSoup(response.text, 'html.parser')
+    job_postings = soup.find.all('div', class_='tcoLwb') # need to update based on the actual HTML structure
+  
+    job_data = []
+    for job_posting in job_posting:
+      job_title =
+      company_name =
+      location =
+      job_description =
+      application_link =
 
   job_data.append({
     'Job Title':'Software Engineer',
