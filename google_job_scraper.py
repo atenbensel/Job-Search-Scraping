@@ -17,11 +17,11 @@ def scrape_google_jobs():
   
     job_data = []
     for job_posting in job_posting:
-      job_title =
-      company_name =
-      location =
-      job_description =
-      application_link =
+      job_title = job_posting.find('div', class_='BjJfJf').text.strip()
+      company_name = job_posting.find('span', class_='f3kIre').text.strip()
+      location = job_posting.find('span', class_='BjJfJf').text.strip()
+      job_description = job_posting.find('span', class_='f3kIre').text.strip()
+      application_link = job_posting.find('a", class_='BVG0Nb')['href']
 
   job_data.append({
     'Job Title':'Software Engineer',
