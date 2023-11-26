@@ -1,4 +1,5 @@
 function startJobSearch() {
   var jobTitle = document.getElementById('jobTitle').value;
 
-  console.log(Searching..., jobTitle);
+  console.log('Searching...', jobTitle);
+}
