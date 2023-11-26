@@ -4,6 +4,10 @@ We're building a tool to automate the process of searching for job openings base
 
 ![image](https://github.com/atenbensel/Job-Search-Scraping/assets/89222426/bdfbdcff-22c6-4071-8990-60aa9a25b6c8)
 
+![image](https://github.com/atenbensel/Job-Search-Scraping/assets/89222426/06ab667d-9c1e-42fa-b35a-33dfd6481427)
+
+![image](https://github.com/atenbensel/Job-Search-Scraping/assets/89222426/52192623-1130-4c7f-8456-80f9e562d1b9)
+
 
 ## Installation
 
