@@ -36,3 +36,7 @@ Run the following command to start the tool: <br>
 ├── scheduler.py
 └── job_data.csv
 ```
+
+## License
+
+This is an open-source project. Feel free to use, fork and clone!
