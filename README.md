@@ -44,5 +44,5 @@ This is an open-source project. Feel free to use, fork, and clone!
 
 ## Co-Authors/Contributors
 
-Eren Aygün
+[Eren Aygün](https://github.com/erenaygunn)
 
