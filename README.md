@@ -22,6 +22,7 @@ We're building a tool to automate the process of searching for job openings base
 To run the job search scraping tool, open the terminal window and navigate to the open project directory. <br>
 Run the following command to start the tool: <br>
 
+
 ## File Structure
 
 ```
